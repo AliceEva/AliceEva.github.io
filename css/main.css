@@ -52,28 +52,55 @@ div.sidemenu {
     width: 250px;
 }
 
-div.sidemenu div.sidemenu-head {
+div.sidemenu div.sidemenu-name {
     position: absolute;
     top: 0;
     left: 0;
-    height: 300px;
     width: 250px;
+    height: 70px;
+    background-color: #E0E0E0;
+}
+
+div.sidemenu div.sidemenu-name table {
+    margin: auto;
+}
+
+div.sidemenu div.sidemenu-name table th.eng-name {
+    text-align: center;
+    font-size: 30px;
+    color: #1f618d;
+}
+
+div.sidemenu div.sidemenu-name table td a {
+    padding-top: 12px;
+    text-align: center;
+    font-size: 19px;
+    color: #808080;
+}
+
+div.sidemenu div.sidemenu-head {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 250px;
+    height: 326px;
     background-color: #C0C0C0;
 }
 
 div.sidemenu div.sidemenu-head img.photo {
     position: absolute;
-    top: 15px;
-    left: 25px;
-    width: 80%;
+    top: 11px;
+    left: 11px;
+    width: 228px;
+    height: 304px;
 }
 
 div.sidemenu div.sidemenu-info {
     position: absolute;
-    top: 300px;
+    top: 396px;
     left: 0;
     width: 250px;
-    height: 450px;
+    height: 400px;
     background-color: #E0E0E0;
 }
 
@@ -81,22 +108,23 @@ div.sidemenu div.sidemenu-info table {
     margin: auto;
 }
 
-div.sidemenu div.sidemenu-info table th.eng-name {
-    text-align: center;
-    font-size: 30px;
-    color: #1f618d;
-}
-
 div.sidemenu div.sidemenu-info table td {
     padding-top: 12px;
     text-align: center;
-    font-size: 19px;
-    color: #808080;
+    font-size: 20px;
+    color: #000;
+}
+
+div.sidemenu div.sidemenu-info table td.left {
+    padding-top: 12px;
+    text-align: center;
+    font-size: 18px;
+    color: #707070;
 }
 
 div.sidemenu div.sidemenu-find {
     position: absolute;
-    top: 750px;
+    top: 770px;
     bottom: 0;
     left: 0;
     width: 250px;
