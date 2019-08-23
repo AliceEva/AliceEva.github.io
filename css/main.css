@@ -132,43 +132,26 @@ div.sidemenu div.sidemenu-find {
 }
 
 div.sidemenu div.sidemenu-find table {
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin-top: 5px;
 }
 
-div.sidemenu div.sidemenu-find table a {
-    width: 22px;
-    height: 22px;
+div.sidemenu div.sidemenu-find table td {
+    text-align: center;
+}
+
+div.sidemenu div.sidemenu-find table td a {
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle;
-    margin-bottom: 6px;
     opacity: 0.7;
     transition: 0.2s;
 }
 
-div.sidemenu div.sidemenu-find table a.weibo {
-    background: url("../icon/weibo.png") center no-repeat #ffa500;
-}
-
-div.sidemenu div.sidemenu-find table a.douban {
-    background: url("../icon/douban.png") center no-repeat #008000;
-}
-
-div.sidemenu div.sidemenu-find table a.github {
-    background: url("../icon/github.png") center no-repeat #808080;
-}
-
-div.sidemenu div.sidemenu-find table a.zhihu {
-    background: url("../icon/zhihu.png") center no-repeat #1e90ff;
-}
-
-div.sidemenu div.sidemenu-find table a.linkedin {
-    background: url("../icon/linkedin.png") center no-repeat #191970;
-}
-
-div.sidemenu div.sidemenu-find table a.facebook {
-    background: url("../icon/facebook.png") center no-repeat #6495ed;
+div.sidemenu div.sidemenu-find table td a.github {
+    background: url("../figures/github.png") center no-repeat #000;
 }
 
 /*right content partition*/
@@ -182,6 +165,10 @@ div.content {
     padding: 20px;
     text-align: center;
     background-color: #F0F0F0;
+}
+
+div.content p {
+    font-family: "Edwardian Script ITC";
 }
 
 div.content div.honors p {
