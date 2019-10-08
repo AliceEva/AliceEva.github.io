@@ -163,11 +163,27 @@ div.content {
     right: 0;
     z-index: -1;
     padding: 20px;
+    font-family: "Times New Roman";
+    font-size: 16px;
     text-align: center;
     background-color: #F0F0F0;
 }
 
-div.content p {
+div.content div.main {
+    text-align: left;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+div.content div.sign {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+
+div.content div.sign p {
     font-family: "Edwardian Script ITC";
 }
 
