@@ -5,6 +5,7 @@ body {
 /*top navbar partition*/
 div.navbar {
     text-align: center;
+    height: 62px;
 }
 
 div.navbar ul {
