@@ -4,8 +4,15 @@ body {
 
 /*top navbar partition*/
 div.navbar {
+    position: fixed;
     text-align: center;
-    height: 62px;
+    top: 0%;
+    bottom: 7%;
+    left: 0%;
+    right: 100%;
+    width: 100%;
+    height: 7%;
+    z-index: 999;
 }
 
 div.navbar ul {
@@ -15,7 +22,7 @@ div.navbar ul {
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    top: 0;
+    top: 0%;
     width: 100%;
 }
 
@@ -47,18 +54,21 @@ div.navbar li a.active {
 /*side information bar partition*/
 div.sidemenu {
     position: fixed;
-    top: 62px;
-    bottom: 0;
-    left: 0;
-    width: 250px;
+    top: 7%;
+    bottom: 100%;
+    left: 0%;
+    right: 13%;
+    width: 13%;
+    height: 93%;
+    overflow: hidden;
+    z-index: 0;
 }
 
 div.sidemenu div.sidemenu-name {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 70px;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
     background-color: #E0E0E0;
 }
 
@@ -80,28 +90,27 @@ div.sidemenu div.sidemenu-name table td a {
 }
 
 div.sidemenu div.sidemenu-head {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 250px;
-    height: 326px;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 35%;
     background-color: #C0C0C0;
 }
 
 div.sidemenu div.sidemenu-head img.photo {
-    position: absolute;
-    top: 11px;
-    left: 11px;
-    width: 228px;
-    height: 304px;
+    position: relative;
+    top: 2%;
+    left: 5%;
+    width: 90%;
+    height: 96%;
 }
 
 div.sidemenu div.sidemenu-info {
-    position: absolute;
-    top: 396px;
-    left: 0;
-    width: 250px;
-    height: 400px;
+    top: 45%;
+    bottom: 94%;
+    left: 0%;
+    width: 100%;
+    height: 49%;
     background-color: #E0E0E0;
 }
 
@@ -124,11 +133,11 @@ div.sidemenu div.sidemenu-info table td.left {
 }
 
 div.sidemenu div.sidemenu-find {
-    position: absolute;
-    top: 770px;
-    bottom: 0;
-    left: 0;
-    width: 250px;
+    top: 94%;
+    bottom: 100%;
+    left: 0%;
+    width: 100%;
+    height: 6%;
     background-color: #909090;
 }
 
@@ -158,15 +167,18 @@ div.sidemenu div.sidemenu-find table td a.github {
 /*right content partition*/
 div.content {
     position: fixed;
-    top: 62px;
-    bottom: 0;
-    left: 250px;
-    right: 0;
+    top: 7%;
+    bottom: 100%;
+    left: 13%;
+    right: 100%;
+    width: 87%;
+    height: 93%;
     z-index: -1;
     padding: 20px;
     font-family: "Times New Roman";
     font-size: 16px;
     text-align: center;
+    overflow: scroll;
     background-color: #F0F0F0;
 }
 
