@@ -143,7 +143,8 @@ div.sidemenu div.sidemenu-find {
 
 div.sidemenu div.sidemenu-find table {
     width: 90%;
-    margin-top: 5px;
+    padding-top: 5px;
+    margin-top: 0px;
 }
 
 div.sidemenu div.sidemenu-find table td {
@@ -175,6 +176,7 @@ div.content {
     height: 93%;
     z-index: -1;
     padding: 20px;
+    padding-bottom: 40px;
     font-family: "Times New Roman";
     font-size: 16px;
     text-align: center;
@@ -198,6 +200,7 @@ div.content div.sign {
 
 div.content div.sign p {
     font-family: "Edwardian Script ITC";
+    font-size: 24px;
 }
 
 div.content div.honors p {
@@ -214,4 +217,25 @@ div.content div.honors a {
     font-style: italic;
     text-align: center;
     padding-top: 0;
+}
+
+div.content div.experience h3 {
+    font-size: 24px;
+    font-family: "Arial";
+}
+
+div.content div.experience div.publication p {
+    font-family: "Times New Roman";
+    font-style: italic;
+    text-align: left;
+    font-size: 18;
+}
+
+div.content div.experience p {
+    font-size: 22px;
+    font-family: "Times New Roman";
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    text-align: left;
 }
